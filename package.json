@@ -2,7 +2,9 @@
   "name": "db-migrate",
   "description": "Database migration framework for node.js",
   "author": "Tobias Gurtick",
-  "bin": "./bin/db-migrate",
+  "bin": {
+    "db-migrate": "./bin/db-migrate"
+  },
   "keywords": [
     "database",
     "db",
